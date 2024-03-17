@@ -1,8 +1,14 @@
-<template>
-</template>
+<script setup>
+	// 读取页面视口高度
+	const { windowHeight } = uni.getSystemInfoSync()
 
-<script>
+	console.log(windowHeight)
 </script>
 
-<style>
-</style>
+<template>
+	<scroll-page></scroll-page>
+</template>
+
+<script></script>
+
+<style></style>
