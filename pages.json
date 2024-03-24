@@ -8,7 +8,8 @@
 			"path": "pages/my/index",
 			"style": {
 				"navigationBarTitleText": "我的",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
 			}
 
 		}, {
@@ -78,5 +79,21 @@
 			}
 		]
 	},
+	"subPackages": [{
+		"root": "subpkg_archive",
+		"pages": [{
+				"path": "form/index",
+				"style": {
+					"navigationBarTitleText": "添加患者"
+				}
+			},
+			{
+				"path": "list/index",
+				"style": {
+					"navigationBarTitleText": "患者列表"
+				}
+			}
+		]
+	}],
 	"uniIdRouter": {}
 }

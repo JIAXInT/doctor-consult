@@ -7,3 +7,7 @@ export const verifyCodeApi = (data) => {
 export const loginByMobileApi = (data) => {
 	return http.post('login', data)
 }
+
+export const userInfoApi = () => {
+	return http.get('/patient/myUser')
+}

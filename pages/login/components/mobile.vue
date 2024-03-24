@@ -9,7 +9,7 @@
 
 	// 表单数据
 	const formData = ref({
-		mobile: '',
+		mobile: '13230000038',
 		code: '',
 	})
 
