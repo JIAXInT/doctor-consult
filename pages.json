@@ -2,7 +2,8 @@
 	"pages": [{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "优医咨询"
+				"navigationBarTitleText": "优医咨询",
+				"navigationStyle": "custom"
 			}
 		}, {
 			"path": "pages/my/index",
@@ -80,20 +81,49 @@
 		]
 	},
 	"subPackages": [{
-		"root": "subpkg_archive",
-		"pages": [{
-				"path": "form/index",
-				"style": {
-					"navigationBarTitleText": "添加患者"
+			"root": "subpkg_consult",
+			"pages": [{
+					"path": "quickly/index",
+					"style": {
+						"navigationBarTitleText": "极速问诊"
+					}
+				},
+				{
+					"path": "department/index",
+					"style": {
+						"navigationBarTitleText": "选择科室"
+					}
+				},
+				{
+					"path": "description/index",
+					"style": {
+						"navigationBarTitleText": "图文问诊"
+					}
+				},
+				{
+					"path": "patient/index",
+					"style": {
+						"navigationBarTitleText": "选择患者"
+					}
 				}
-			},
-			{
-				"path": "list/index",
-				"style": {
-					"navigationBarTitleText": "患者列表"
+			]
+		},
+		{
+			"root": "subpkg_archive",
+			"pages": [{
+					"path": "form/index",
+					"style": {
+						"navigationBarTitleText": "添加患者"
+					}
+				},
+				{
+					"path": "list/index",
+					"style": {
+						"navigationBarTitleText": "患者列表"
+					}
 				}
-			}
-		]
-	}],
+			]
+		}
+	],
 	"uniIdRouter": {}
 }
